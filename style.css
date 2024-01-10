@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    font-family: calibri;
+}
+
+div ul{
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 550;
+}
+
+div ul li{
+    padding: 5px;
+}
+
+body{
+   margin: 0px;
+   font-family: calibri;
+}
+
+div{
+    vertical-align: top;
+}
+
+section h1{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    z-index: 1;
+}
+
+.Title{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2vh;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(47, 47, 252);
+}
+
+
+
+.NavBar{
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    list-style: none;
+    margin-top: 2vh;
+    right:15px;
+
+}
+
+.NavBar li{
+    display: inline-block;
+    font-size: 15px;
+    margin:2px;
+}
+
+.NavBar li a{
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(37, 37, 250);
+    border-radius: 10px;
+    transition: 0s;
+
+}
+
+.NavBar li:hover a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 9, 172);
+}
+
+
+/* Accueil */
+
+#Accueil{
+    background-color: hsl(240, 70%, 30%);
+    height: 100vh;
+}
+
+#Accueil div{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform:translateY(20vh);
+    color: white;
+}
+p{
+    font-size: 2em;
+}
+
+
+/*A propos */
+
+#APropos{
+    background-color: hsl(240, 70%, 40%);
+    height: 100vh;
+    justify-content: center;
+}
+
+#divAPropos{
+    position: absolute;
+    width: 100%;
+    transform:translateY(20vh);
+    color: white;
+}
+
+#APropos div{
+    position: absolute;
+    transform:translateY(20vh);
+    color: white;
+}
+
+
+.AboutMe{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 35vh ;
+    width: 60%;
+    margin-left: 20% ;
+    transition: 0.5s;
+}
+
+.AboutMe:hover{
+    box-shadow:0 0 20px 5px rgb(207, 199, 140) ;
+} 
+
+
+.AboutMe ul{
+    margin-top: 5vh ;
+}
+
+.AboutMe ul li{
+    color: hsl(240, 70%, 40%) ;
+}
+
+
+/*Parcours*/
+
+#Parcours{
+    background-color: hsl(240, 69%, 46%);
+    height: 100vh;
+}
+
+#divParcours{
+    position: absolute;
+    width: 100%;
+    transform:translateY(20vh);
+    color: white;
+}
+
+#Parcours div{
+    position: absolute;
+    transform:translateY(20vh);
+    color: white;
+}
+
+.Parcours{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 30vh ;
+    width: 60%;
+    margin-left: 20% ;
+    transition: 0.5s;
+}
+
+.Parcours:hover{
+    box-shadow:0 0 20px 5px rgb(207, 199, 140) ;
+} 
+
+
+.Parcours ul{
+    margin-top: 5vh ;
+}
+
+.Parcours ul li{
+    color: hsl(240, 70%, 40%) ;
+}
+
+/*Competences*/
+
+#Competences{
+    background-color: hsl(240, 81%, 59%);
+    height: 100vh;
+    justify-content: center;
+}
+
+#divCompetences{
+    position: absolute;
+    width: 100%;
+    transform:translateY(20vh);
+    color: white;
+}
+
+#Competences div{
+    position: absolute;
+    transform:translateY(20vh);
+    color: white;
+}
+
+.Competences{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 35vh ;
+    width: 60%;
+    margin-left: 20% ;
+    transition: 0.5s;
+}
+
+.Competences:hover{
+    box-shadow:0 0 20px 5px rgb(255, 230, 44) ;
+} 
+
+.Competences ul{
+    margin-top: 5vh ;
+}
+
+.Competences ul li{
+    color: hsl(240, 79%, 56%) ;
+}
+
+#contacter{
+    background-color: hsl(240, 33%, 88%);
+    height: 100vh;
+    justify-content: center;
+}
+/*Footer*/
+footer{
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+    color: rgb(32, 36, 171);
+}
+.socialMedia{
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+.socialMedia a{
+    display: inline-block;
+    margin-top: 50px;
+}
+a{ 
+    text-decoration: none;
+    color:rgb(38, 38, 150);
+}
+button{  
+    border-color:rgb(73, 73, 225) ;
+    font-size: 1em;
+    background-color:white;
+    color: rgb(47, 47, 201);
+}
+button:hover{
+  
+   color: aliceblue;
+    background-color: rgb(55, 55, 221);
+}
