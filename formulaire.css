@@ -19,13 +19,13 @@
 }
 
 .title h1:hover{
-    color: rgb(79, 50, 243);
+    color: rgb(19, 214, 228);
 }
 
 .container{
     width: 100%;
     display: flex;
-    background-color: rgb(31, 31, 244);
+    background-color: rgb(15, 63, 92);
 }
 
 .container form{
